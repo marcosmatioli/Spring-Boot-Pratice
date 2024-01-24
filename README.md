@@ -54,7 +54,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 ```
 
-#### Script SQL - Inicializar docs
+#### Script SQL - Para inserir os dados
 
 ```sql
 INSERT INTO tb_department(name) VALUES ('Gestão');
@@ -65,4 +65,3 @@ INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Bob', 'bob@gmail.com
 INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Alex', 'alex@gmail.com');
 INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Ana', 'ana@gmail.com');
 ```
-#### Collection Postman
